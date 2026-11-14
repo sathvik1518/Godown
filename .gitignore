@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+coverage/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Tooling / OS
+.vercel/
+*.log
+.DS_Store
+Thumbs.db
