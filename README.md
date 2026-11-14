@@ -6,8 +6,8 @@ The demo data is a Hyderabad grocery and household shop: 37 products, 6 supplier
 
 | | |
 |---|---|
-| Live app | https://YOUR-PROJECT.vercel.app/#/login |
-| Source | https://github.com/sathvik1518/YOUR-REPO |
+| Live app | https://godown-gamma.vercel.app/#/login |
+| Source | https://github.com/sathvik1518/Godown |
 | Admin login | `saisathvik@gmail.com` / `Admin@123` |
 | Staff login | `kavya.reddy@gmail.com` / `Staff@1234` |
 
@@ -103,7 +103,7 @@ The backend tests refuse to run if `DATABASE_URL` is set, so they can never touc
 3. In Vercel choose **Add New, Project**, import the repo, and set **Framework Preset** to **Other**. Leave the root as the repo root; `vercel.json` already sets the build command and output folder.
 4. Add two environment variables: `DATABASE_URL` (the Neon string) and `JWT_SECRET` (any long random text).
 5. Deploy. The first request creates the tables and loads the demo data.
-6. Open `https://YOUR-PROJECT.vercel.app/#/login` and sign in as the admin.
+6. Open `https://godown-gamma.vercel.app/#/login` and sign in as the admin.
 
 To start with an empty shop instead of demo data, set `SEED_DEMO=0` before the first request. The admin account is still created.
 
