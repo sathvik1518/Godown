@@ -1,0 +1,93 @@
+/* Design tokens. Every colour, size and shadow used in the app comes from here,
+   so the look stays consistent and dark mode is a matter of swapping values. */
+:root {
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Paper-and-ink palette: warm off-white page, white cards, deep green accent. */
+  --bg: #f2efe7;
+  --surface: #ffffff;
+  --surface-2: #faf8f2;
+  --surface-3: #f1eee5;
+  --line: #e4dfd1;
+  --line-strong: #cdc6b3;
+  --ink: #18221e;
+  --ink-2: #404d46;
+  --muted: #5f6b64;
+
+  --brand: #1f6b57;
+  --brand-hover: #185646;
+  --brand-ink: #ffffff;
+  --brand-soft: #e1efe8;
+
+  --good: #236b41;
+  --good-soft: #e0f0e5;
+  --warn: #8f5500;
+  --warn-soft: #fbefd3;
+  --bad: #a3322a;
+  --bad-soft: #f8e3df;
+  --info: #25598f;
+  --info-soft: #e1ecf7;
+
+  --in: #236b41;
+  --out: #a84d22;
+
+  --side-bg: #13201b;
+  --side-ink: #c9d5ce;
+  --side-muted: #8a9b92;
+  --side-hover: rgba(255, 255, 255, 0.07);
+  --side-active: rgba(255, 255, 255, 0.12);
+
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow-1: 0 1px 2px rgba(24, 34, 30, 0.05);
+  --shadow-2: 0 10px 30px rgba(24, 34, 30, 0.14);
+  --shadow-3: 0 24px 70px rgba(8, 18, 14, 0.32);
+  --scrim: rgba(12, 20, 16, 0.5);
+
+  --sidebar-w: 248px;
+  --topbar-h: 64px;
+  --bottomnav-h: 62px;
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #0d1310;
+  --surface: #151d19;
+  --surface-2: #1a241f;
+  --surface-3: #202c26;
+  --line: #27342d;
+  --line-strong: #394a40;
+  --ink: #e8efe9;
+  --ink-2: #bccac2;
+  --muted: #92a298;
+
+  --brand: #4fb592;
+  --brand-hover: #68c8a6;
+  --brand-ink: #08130f;
+  --brand-soft: #173128;
+
+  --good: #62c78f;
+  --good-soft: #17351f;
+  --warn: #eaa83f;
+  --warn-soft: #3a2b0f;
+  --bad: #f28b7d;
+  --bad-soft: #3e1e1a;
+  --info: #84b8ec;
+  --info-soft: #172a3d;
+
+  --in: #62c78f;
+  --out: #ec9060;
+
+  --side-bg: #0a100d;
+  --side-ink: #c2cfc8;
+  --side-muted: #84948b;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.45);
+  --shadow-3: 0 24px 70px rgba(0, 0, 0, 0.6);
+  --scrim: rgba(0, 0, 0, 0.62);
+
+  color-scheme: dark;
+}
